@@ -1,0 +1,28 @@
+@charset "UTF-8";
+#head {
+	background-color: orange;
+}
+#container {
+	background-color: pink;
+}
+.boxleft {
+	background-color: lightgreen;
+}
+.boxright {
+	background-color: lightblue;
+}
+#foot {
+	background-color: orange;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}*/

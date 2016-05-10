@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#head {
+	background-color: orange;
+	width: 310px;
+	height: 20px;
+}
+#container {
+	background-color: pink;
+	width: 310px;
+}
+.boxleft {
+	background-color: lightgreen;
+	width: 90px;
+	height: 150px;
+	margin-left: 10px;
+	float: left;
+}
+.boxcenter {
+	background-color: yellow;
+	width: 90px;
+	height: 150px;
+	margin-left: 10px;
+	float: left;
+}
+.boxright {
+	background-color: lightblue;
+	width: 90px;
+	height: 150px;
+	margin-left: 10px;
+	float: left;
+}
+#foot {
+	background-color: orange;
+	width: 310px;
+	height: 20px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}*/
